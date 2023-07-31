@@ -21,7 +21,6 @@ function aiChoice() {
 function result(event) {
     const aHand = aiChoice();
     const pHand = event
-    console.log(pHand);
 
     document.getElementById("computer-choice").innerHTML = aHand;
     document.getElementById("player-choice").innerHTML = pHand;
