@@ -20,7 +20,7 @@ function aiChoice() {
 
 function result(event) {
     const aHand = aiChoice();
-    const pHand = event
+    const pHand = event;
 
     document.getElementById("computer-choice").innerHTML = aHand;
     document.getElementById("player-choice").innerHTML = pHand;
