@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+
+    <div class="interface">
+        <p>Computer Choice: <span id="computer-choice"></span></p>
+        <p>Player Choice: <span id="player-choice"></span></p>
+        <p>Result: <span id="result"></span></p>
+    </div>
+    <h2>Pick a choice:  </h2>
+    <div class="inputs">
+        <button type="button" id="rock" onclick="result('rock')"><img src="images/rock.png" style="width: 80px;"></button>
+        <button type="button" id="paper" onclick="result('paper')"><img src="images/paper.png" style="width: 80px;"></button>
+        <button type="button" id="scissors" onclick="result('scissors')"><img src="images/scissors.png" style="width: 80px;"></button>
+    </div>
+
+    <div class="scores">
+        <h2>Scores</h2>
+        <h2>AI:<span id="aiScore">0</span></h2>
+        <h2>Player: <span id="playerScore">0</span></h2>
+    </div>
+
+    <div class="reset">
+        <button type="button" id="reset" onclick="resetScore()">Reset Score</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

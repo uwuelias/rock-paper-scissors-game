@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(154, 226, 154);
+    text-align: center;
+    color: #283618;
+}
+
+.interface {
+    font-size: 40px;
+}
+
+#reset {
+    border-radius: 15px;
+    background-color: aliceblue;
+}
